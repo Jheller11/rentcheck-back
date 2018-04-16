@@ -1,5 +1,6 @@
 const mongoose = require('./connection')
-const seeds = require('/seeds.json')
+const seeds = require('./seeds.json')
+mongoose.Promise = Promise
 
 const Apartment = require('../models/Apartment')
 
