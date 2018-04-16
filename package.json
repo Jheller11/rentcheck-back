@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "ml-regression-multivariate-linear": "^1.1.0",
+    "mongoose": "^5.0.14"
+  }
 }

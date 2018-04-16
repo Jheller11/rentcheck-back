@@ -16,3 +16,27 @@ H. Neighborhood profiles
 ### Where the estimate comes from:
 
 * I will use a multivariate regression algorithm which will take an array of inputs ( x, data listed above) and generate a predicted outcome (y) based on that data. The model is generated based on known x and y data that I will gather. Additionally, i will allow users to contribute to making the model better by saving their apartments.
+
+### Models:
+
+A. User - Admin/Renter/Landlord types (for saved searches, extra data)
+B. Apartment - used to create and refine prediction model (more apartments = more accuracy)
+C. Neighborhood - used to profile DC neighborhoods (possibly with message board)
+
+### Levels:
+
+1.  MVP:
+    a. Take user input and create estimate.
+    b. Provide detailed estimate with data from model.
+    c. CRUD on apartments model (with edit/delete possibly restricted to admin role)
+
+2.  Bronze:
+    a. Map view for neighborhoods and/or apartments.
+    b. User sign in for more detailed data/saved searches
+
+3.  Silver:
+    a. Message boards in neighborhood profile.
+    b. DC news/housing feed (maybe from twitter?)
+
+4)  Gold:
+    a.
