@@ -1,6 +1,7 @@
 const mongoose = require('../db/connection')
 
 const ApartmentSchema = new mongoose.Schema({
+  type: String,
   bedrooms: {
     type: Number,
     required: true
@@ -19,7 +20,7 @@ const ApartmentSchema = new mongoose.Schema({
     required: true
   },
   neighborhood: {
-    type: Number,
+    type: String,
     required: true
   },
   address: '',
