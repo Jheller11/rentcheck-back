@@ -10,3 +10,5 @@ Apartment.remove({}).then(apt => {
     mongoose.connection.close()
   })
 })
+
+// this file is used to load seeds.json into the MLR to create a new model.

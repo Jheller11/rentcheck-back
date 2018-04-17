@@ -19,7 +19,8 @@ router.post('/estimates', (req, res) => {
     parseInt(req.body.bedrooms),
     parseInt(req.body.baths),
     parseInt(req.body.size),
-    parseInt(req.body.parking)
+    parseInt(req.body.parking),
+    parseInt(req.body.neighborhood)
   ])
   let rent = rentArray[0]
   let estimate = Object.assign({}, req.body, { rent: rent })

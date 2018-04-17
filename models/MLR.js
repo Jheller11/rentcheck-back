@@ -5,12 +5,12 @@ let x = []
 let y = []
 
 data.map(apt => {
-  x.push([apt.bedrooms, apt.baths, apt.size, apt.parking])
+  x.push([apt.bedrooms, apt.baths, apt.size, apt.parking, apt.neighborhood])
   y.push([apt.rent])
 })
 
 const mlr = new MLR(x, y)
-
+console.log(mlr.weights)
 module.exports = mlr
 
 // Number bedrooms

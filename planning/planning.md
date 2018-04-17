@@ -38,5 +38,7 @@ C. Neighborhood - used to profile DC neighborhoods (possibly with message board)
     a. Message boards in neighborhood profile.
     b. DC news/housing feed (maybe from twitter?)
 
-4)  Gold:
-    a.
+4.  Gold:
+    a. maps
+    b. better data
+    c. local dc twitter feed

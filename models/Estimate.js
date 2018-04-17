@@ -20,7 +20,7 @@ const EstimateSchema = new mongoose.Schema({
     required: true
   },
   neighborhood: {
-    type: String,
+    type: Number,
     required: true
   },
   created: {
