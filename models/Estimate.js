@@ -28,8 +28,7 @@ const EstimateSchema = new mongoose.Schema({
     default: Date.now()
   },
   rent: {
-    type: Number,
-    default: 0
+    type: Number
   }
 })
 
