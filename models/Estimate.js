@@ -1,6 +1,6 @@
 const mongoose = require('../db/connection')
 
-const ApartmentSchema = new mongoose.Schema({
+const EstimateSchema = new mongoose.Schema({
   type: String,
   bedrooms: {
     type: Number,
@@ -23,14 +23,16 @@ const ApartmentSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  address: '',
   created: {
     type: Date,
     default: Date.now()
   },
-  rent: Number
+  rent: {
+    type: Number,
+    default: 0
+  }
 })
 
-const Apartment = mongoose.model('Apartment', ApartmentSchema)
+const Estimate = mongoose.model('Estimate', EstimateSchema)
 
-module.exports = Apartment
+module.exports = Estimate

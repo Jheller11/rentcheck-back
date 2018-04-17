@@ -1,11 +1,92 @@
 [
   {
-    "type": "",
-    "bedrooms": 1,
-    "size": 600,
+    "type": "managed",
+    "bedrooms": 0,
+    "size": 487,
     "baths": 1,
     "parking": 1,
-    "neighborhood": "",
-    "address": ""
+    "neighborhood": "Columbia Heights",
+    "address": "1400 Irving St NW",
+    "rent": 2135
+  },
+  {
+    "type": "managed",
+    "bedrooms": 0,
+    "size": 487,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": "Columbia Heights",
+    "address": "1400 Irving St NW",
+    "rent": 1885
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 643,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": "Columbia Heights",
+    "address": "1400 Irving St NW",
+    "rent": 2130
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 643,
+    "baths": 1,
+    "parking": 1,
+    "neighborhood": "Columbia Heights",
+    "address": "1400 Irving St NW",
+    "rent": 2380
+  },
+  {
+    "type": "managed",
+    "bedrooms": 2,
+    "size": 1023,
+    "baths": 2,
+    "parking": 0,
+    "neighborhood": "Columbia Heights",
+    "address": "1400 Irving St NW",
+    "rent": 2875
+  },
+  {
+    "type": "managed",
+    "bedrooms": 2,
+    "size": 1023,
+    "baths": 2,
+    "parking": 1,
+    "neighborhood": "Columbia Heights",
+    "address": "1400 Irving St NW",
+    "rent": 3125
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 652,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": "Columbia Heights",
+    "address": "1375 Kenyon St NW",
+    "rent": 1975
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 855,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": "Columbia Heights",
+    "address": "1375 Kenyon St NW",
+    "rent": 2240
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 675,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": "Columbia Heights",
+    "address": "1430 W St NW",
+    "rent": 2350
   }
 ]
