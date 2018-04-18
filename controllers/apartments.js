@@ -10,14 +10,6 @@ router.get('/estimate/:id', (req, res) => {
   })
 })
 
-router.get('/mlr', (req, res) => {
-  res.json(mlr)
-})
-
-router.get('/', (req, res) => {
-  Apartment.find({}).then(apts => res.json(apts))
-})
-
 router.get('/estimate', (req, res) => {
   res.send('')
 })
@@ -37,6 +29,24 @@ router.post('/estimate', (req, res) => {
       res.json(estimate._id)
     })
     .catch(err => console.log(err))
+})
+
+router.get('/mlr', (req, res) => {
+  res.json(mlr)
+})
+
+router.get('/', (req, res) => {
+  Apartment.find({}).then(apts => res.json(apts))
+})
+
+router.post('/', (req, res) => {
+  Apartment.create(req.body).then(apts => res.json(apts))
+})
+
+router.delete('/:id', (req, res) => {
+  Apartment.findOneAndRemove({ _id: req.params.id }).then(() => {
+    Apartment.find({}).then(apts => res.json(apts))
+  })
 })
 
 module.exports = router
