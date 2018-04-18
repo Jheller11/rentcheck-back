@@ -248,5 +248,135 @@
     "neighborhood": 2,
     "address": "",
     "rent": 2800
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 600,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 1,
+    "address": "Anacostia",
+    "rent": 1000
+  },
+  {
+    "type": "managed",
+    "bedrooms": 2,
+    "size": 1000,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 1,
+    "address": "Anacostia",
+    "rent": 1850
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 640,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 1,
+    "address": "Anacostia",
+    "rent": 900
+  },
+  {
+    "type": "managed",
+    "bedrooms": 0,
+    "size": 562,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 2,
+    "address": "Fort Totten",
+    "rent": 1439
+  },
+  {
+    "type": "managed",
+    "bedrooms": 0,
+    "size": 771,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 2,
+    "address": "Fort Totten",
+    "rent": 1729
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 630,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 2,
+    "address": "Fort Totten",
+    "rent": 1718
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 755,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 2,
+    "address": "Fort Totten",
+    "rent": 2250
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 578,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 2,
+    "address": "Fort Totten",
+    "rent": 1810
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 578,
+    "baths": 1,
+    "parking": 1,
+    "neighborhood": 2,
+    "address": "Fort Totten",
+    "rent": 1940
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 652,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 2,
+    "address": "Fort Totten",
+    "rent": 1820
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 652,
+    "baths": 1,
+    "parking": 1,
+    "neighborhood": 2,
+    "address": "Fort Totten",
+    "rent": 1950
+  },
+  {
+    "type": "managed",
+    "bedrooms": 2,
+    "size": 803,
+    "baths": 2,
+    "parking": 0,
+    "neighborhood": 2,
+    "address": "Fort Totten",
+    "rent": 2330
+  },
+  {
+    "type": "managed",
+    "bedrooms": 2,
+    "size": 803,
+    "baths": 2,
+    "parking": 1,
+    "neighborhood": 2,
+    "address": "Fort Totten",
+    "rent": 2460
   }
 ]

@@ -4,7 +4,7 @@ const Apartment = require('../models/Apartment')
 const Estimate = require('../models/Estimate')
 const mlr = require('../models/MLR')
 
-router.get('/estimates/:id', (req, res) => {
+router.get('/estimate/:id', (req, res) => {
   Estimate.find({ _id: req.params.id }).then(est => res.json(est))
 })
 
@@ -12,9 +12,11 @@ router.get('/', (req, res) => {
   Apartment.find({}).then(apts => res.json(apts))
 })
 
-router.get('/estimate', (req, res) => {})
+router.get('/estimate', (req, res) => {
+  res.send('')
+})
 
-router.post('/estimates', (req, res) => {
+router.post('/estimate', (req, res) => {
   let rentArray = mlr.predict([
     parseInt(req.body.bedrooms),
     parseInt(req.body.baths),
