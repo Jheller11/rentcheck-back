@@ -5,7 +5,13 @@ const Estimate = require('../models/Estimate')
 const mlr = require('../models/MLR')
 
 router.get('/estimate/:id', (req, res) => {
-  Estimate.find({ _id: req.params.id }).then(est => res.json(est))
+  Estimate.find({ _id: req.params.id }).then(est => {
+    res.json(est)
+  })
+})
+
+router.get('/mlr', (req, res) => {
+  res.json(mlr)
 })
 
 router.get('/', (req, res) => {

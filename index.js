@@ -15,6 +15,7 @@ app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 app.use('/apartments', apartmentContoller)
 app.use('/questions', questionController)
+
 app.get('/', (req, res) => res.send('Welcome'))
 
 app.listen(3001, () => console.log('server running: 3001'))
