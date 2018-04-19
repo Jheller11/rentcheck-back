@@ -18,4 +18,8 @@ app.use('/questions', questionController)
 
 app.get('/', (req, res) => res.send('Welcome'))
 
-app.listen(3001, () => console.log('server running: 3001'))
+app.set('port', process.env.PORT || 3001)
+
+app.listen(app.get('port'), () => {
+  console.log(`port: ${app.get('port')}`)
+})
