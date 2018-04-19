@@ -378,5 +378,65 @@
     "neighborhood": 2,
     "address": "Fort Totten",
     "rent": 2460
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 600,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 2,
+    "address": "Takoma Park",
+    "rent": 1125
+  },
+  {
+    "type": "private",
+    "bedrooms": 2,
+    "size": 900,
+    "baths": 2,
+    "parking": 0,
+    "neighborhood": 5,
+    "address": "Georgetwon",
+    "rent": 2270
+  },
+  {
+    "type": "managed",
+    "bedrooms": 0,
+    "size": 500,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 4,
+    "address": "Foggy Bottom",
+    "rent": 1200
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 700,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 2,
+    "address": "Ledroit Park",
+    "rent": 1915
+  },
+  {
+    "type": "managed",
+    "bedrooms": 2,
+    "size": 1100,
+    "baths": 1.5,
+    "parking": 1,
+    "neighborhood": 3,
+    "address": "Capitol Hill",
+    "rent": 2695
+  },
+  {
+    "type": "managed",
+    "bedrooms": 2,
+    "size": 1100,
+    "baths": 1.5,
+    "parking": 1,
+    "neighborhood": 3,
+    "address": "Capitol Hill",
+    "rent": 2845
   }
 ]
