@@ -19,9 +19,11 @@ H. Neighborhood profiles
 
 ### Models:
 
-A. User - Admin/Renter/Landlord types (for saved searches, extra data)
+A. MLR - the algorithm which will generate estimates.
 B. Apartment - used to create and refine prediction model (more apartments = more accuracy)
-C. Neighborhood - used to profile DC neighborhoods (possibly with message board)
+C. Estimate - Created and displayed after user runs data through the MLR
+D. Quesions - f.a.q page
+E. Neighborhood - used to profile DC neighborhoods (possibly with message board)
 
 ### Levels:
 
@@ -31,7 +33,7 @@ C. Neighborhood - used to profile DC neighborhoods (possibly with message board)
     c. CRUD on apartments model (with edit/delete possibly restricted to admin role)
 
 2.  Bronze:
-    a. Map view for neighborhoods and/or apartments.
+    a. Neighborhood Profiles
     b. User sign in for more detailed data/saved searches
 
 3.  Silver:
@@ -39,6 +41,5 @@ C. Neighborhood - used to profile DC neighborhoods (possibly with message board)
     b. DC news/housing feed (maybe from twitter?)
 
 4.  Gold:
-    a. maps
-    b. better data
+    a. Map view for neighborhoods and/or apartments.
     c. local dc twitter feed

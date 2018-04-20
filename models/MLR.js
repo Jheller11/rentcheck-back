@@ -10,8 +10,7 @@ data.map(apt => {
 })
 
 const mlr = new MLR(x, y)
-console.log(mlr)
-console.log(x)
+
 module.exports = mlr
 
 // Number bedrooms
