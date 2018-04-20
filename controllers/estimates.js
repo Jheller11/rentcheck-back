@@ -16,7 +16,7 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
   let rentArray = mlr.predict([
     parseInt(req.body.bedrooms),
-    parseInt(req.body.baths),
+    parseInt(req.body.baths) - 1,
     parseInt(req.body.size),
     parseInt(req.body.parking),
     parseInt(req.body.neighborhood)

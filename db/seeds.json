@@ -438,5 +438,125 @@
     "neighborhood": 3,
     "address": "Capitol Hill",
     "rent": 2845
+  },
+  {
+    "type": "managed",
+    "bedrooms": 0,
+    "size": 455,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 3,
+    "address": "Capitol Hill",
+    "rent": 1799
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 563,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 3,
+    "address": "Capitol Hill",
+    "rent": 1999
+  },
+  {
+    "type": "managed",
+    "bedrooms": 2,
+    "size": 1049,
+    "baths": 2,
+    "parking": 0,
+    "neighborhood": 3,
+    "address": "Capitol Hill",
+    "rent": 3660
+  },
+  {
+    "type": "managed",
+    "bedrooms": 0,
+    "size": 450,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 3,
+    "address": "Capitol Hill",
+    "rent": 1550
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 800,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 3,
+    "address": "Cleveland Park",
+    "rent": 1700
+  },
+  {
+    "type": "managed",
+    "bedrooms": 0,
+    "size": 485,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 3,
+    "address": "Cleveland Park",
+    "rent": 1350
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 730,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 3,
+    "address": "Cleveland Park",
+    "rent": 1499
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 800,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 3,
+    "address": "Cleveland Park",
+    "rent": 1600
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 775,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 2,
+    "address": "Takoma",
+    "rent": 1560
+  },
+  {
+    "type": "managed",
+    "bedrooms": 1,
+    "size": 775,
+    "baths": 1,
+    "parking": 1,
+    "neighborhood": 2,
+    "address": "Takoma",
+    "rent": 1630
+  },
+  {
+    "type": "managed",
+    "bedrooms": 0,
+    "size": 500,
+    "baths": 1,
+    "parking": 1,
+    "neighborhood": 2,
+    "address": "Takoma",
+    "rent": 1370
+  },
+  {
+    "type": "managed",
+    "bedrooms": 0,
+    "size": 500,
+    "baths": 1,
+    "parking": 0,
+    "neighborhood": 2,
+    "address": "Takoma",
+    "rent": 1300
   }
 ]
