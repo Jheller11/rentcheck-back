@@ -10,6 +10,7 @@ data.map(apt => {
 })
 
 const mlr = new MLR(x, y)
+console.log(mlr.weights)
 
 module.exports = mlr
 
